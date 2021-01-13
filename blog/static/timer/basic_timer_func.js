@@ -92,10 +92,10 @@ self.addEventListener('message', (e) => {
         console.log(sleep_time);　// 確認用。
   
         // sleep_timeのエラー対策
-        if (sleep_time < 995) {
-          console.log("error. sleep_time sets '1000'.");
-          sleep_time = 1000;
-        }
+        //if (sleep_time < 995) {
+        //  console.log("error. sleep_time sets '1000'.");
+        //  sleep_time = 1000;
+        //}
   
         console.log(base_time); //  確認用。Chromeの他のタブを見ると、base_timeが変わってしまった。
         await sleep(sleep_time);
