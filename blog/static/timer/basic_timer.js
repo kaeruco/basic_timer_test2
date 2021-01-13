@@ -1,4 +1,4 @@
-const myWorker = new Worker('basic_timer_func.js');
+const myWorker = new Worker('timer/basic_timer_func.js');
 
 myWorker.postMessage('Hello');
 
